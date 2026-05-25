@@ -1,0 +1,32 @@
+name: "💡 Leave a Suggestion"
+description: >-
+  Please do not ask for mod updates or ports. They will come out when they are ready.
+title: "[💡 Suggestion]: "
+labels: ["enhancement"]
+assignees:
+  - zero-src
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue report!
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft Version(s) (Optional)
+      description: What Minecraft version(s) are you using to play the mod?
+      placeholder: ex. 26.2
+  - type: input
+    id: version
+    attributes:
+      label: Mod Version(s) (Optional)
+      description: What mod version(s) are you using to play?
+      placeholder: ex. v0.1.0
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion (Required)
+      placeholder: >-
+        ex. Add a per-element height offset config so I can shift toughness bar up without changing armor bar.
+    validations:
+      required: true

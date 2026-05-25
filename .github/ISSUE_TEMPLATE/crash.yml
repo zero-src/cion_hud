@@ -1,0 +1,58 @@
+name: "💥 Submit a Crash Report"
+description: >-
+  See README.md in the root of the main branch for supported Minecraft versions. Support may vary based on issue severity.
+title: "[💥 Crash]: "
+labels: ["bug", "high priority"]
+assignees:
+  - zero-src
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue report!
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft Version(s) (Required)
+      description: What Minecraft version(s) are you using to play the mod?
+      placeholder: ex. 26.2
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Mod Version(s) (Required)
+      description: What mod version(s) are you using to play?
+      placeholder: ex. v0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (Required)
+      description: Please explain which steps we need to do to reproduce the issue. Please include anything else you'd like to say about it.
+      placeholder: >-
+        ex.
+
+        1. Load any world.
+
+        2. Take damage to drop below 4 hearts.
+
+        3. The game crashes.
+    validations:
+      required: true
+  - type: input
+    id: crash-report
+    attributes:
+      label: Crash Report (Required)
+      description: >-
+        Please paste a URL to your shared crash report (use https://gist.github.com or https://mclo.gs). Issue reports without this file are difficult to solve and unlikely to be processed.
+      placeholder: ex. https://mclo.gs/<paste_id>
+    validations:
+      required: true
+  - type: input
+    id: latest-log
+    attributes:
+      label: latest.log (Optional)
+      description: Please paste a URL to your shared `latest.log` file.
+      placeholder: ex. https://mclo.gs/<paste_id>
