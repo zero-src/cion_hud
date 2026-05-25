@@ -1,0 +1,43 @@
+{
+    "minecraft": "26.2",
+    "mod": {
+        "id": "cion_hud",
+        "group": "cion",
+        "name": "Cion HUD",
+        "version": "0.1.0",
+        "authors": [
+            "zero-src"
+        ],
+        "description": "Overflowing health/armor bars with row indicators and harvest crosshair. Part of the Cion mod suite.",
+        "license": "MPL-2.0"
+    },
+    "dependencies": [
+        {
+            "name": "fabricapi",
+            "type": "required",
+            "platforms": [
+                "fabric"
+            ]
+        },
+        {
+            "name": "cion_core",
+            "type": "required",
+            "platforms": [
+                "fabric"
+            ]
+        }
+    ],
+    "links": [
+        {
+            "name": "github",
+            "slug": "cion_hud"
+        }
+    ],
+    "environments": {
+        "client": "required",
+        "server": "unsupported"
+    },
+    "platforms": [
+        "fabric"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "cion_hud",
+	"version": "${version}",
+	"name": "Cion HUD",
+	"description": "Overflowing health/armor bars with row counter. Part of the Cion mod suite.",
+	"authors": [
+		"Cion"
+	],
+	"contact": {},
+	"license": "MPL-2.0",
+	"icon": "assets/cion_hud/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cion.hud.CionHud"
+		],
+		"client": [
+			"cion.hud.client.CionHudClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "cion_hud.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"accessWidener": "cion_hud.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.2-",
+		"java": ">=25",
+		"fabric-api": "*",
+		"cion_core": ">=0.1.0"
+	}
+}

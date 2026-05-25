@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "cion.hud.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"GuiHeartTypeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
