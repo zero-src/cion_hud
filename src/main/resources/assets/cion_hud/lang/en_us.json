@@ -1,0 +1,15 @@
+{
+	"cion_hud.config.title": "HUD",
+	"cion_hud.config.hearts": "Hearts",
+	"cion_hud.config.hearts.enabled": "Enabled",
+	"cion_hud.config.hearts.showTextIndicator": "Show row counter",
+	"cion_hud.config.hearts.inverseColoring": "Inverse coloring",
+	"cion_hud.config.armor": "Armor",
+	"cion_hud.config.armor.enabled": "Enabled",
+	"cion_hud.config.armor.showTextIndicator": "Show row counter",
+	"cion_hud.config.crosshair": "Crosshair",
+	"cion_hud.config.crosshair.enabled": "Enabled",
+	"cion_hud.config.textIndicator": "Text indicator",
+	"cion_hud.config.textIndicator.color": "Color",
+	"cion_hud.config.textIndicator.showX": "Show ×"
+}

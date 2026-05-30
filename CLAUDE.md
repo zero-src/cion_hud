@@ -1,6 +1,6 @@
 # cion_hud — project notes
 
-Fabric client mod, MC 26.2-snapshot-8, Fabric Loader 0.19.2, Fabric API 0.149.1+26.2, Java 25, Loom 1.16. Tested with Vulkan (Experimental) renderer.
+Fabric client mod, MC 26.2-pre-2, Fabric Loader 0.19.2, Fabric API 0.150.1+26.2, Java 25, Loom 1.16. Tested with Vulkan (Experimental) renderer.
 
 ## MC 26.2 vs older versions — API renames (CRITICAL)
 
@@ -33,7 +33,7 @@ Vanilla render flow uses an extract→render two-stage pattern. Key Hud methods 
 - `extractVehicleHealth(GuiGraphicsExtractor)`
 - private heart blit helper: `(GuiGraphicsExtractor, Hud$HeartType, int x, int y, boolean, boolean, boolean)`
 
-## Fabric API 0.149.1+26.2 — new HUD API
+## Fabric API 0.150.1+26.2 — new HUD API
 
 Located in `net.fabricmc.fabric.api.client.rendering.v1.hud`:
 
